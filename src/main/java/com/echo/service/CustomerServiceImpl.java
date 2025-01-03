@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -9,20 +9,20 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masai.exception.CustomerException;
-import com.masai.exception.CustomerNotFoundException;
-import com.masai.exception.LoginException;
-import com.masai.models.Address;
-import com.masai.models.Cart;
-import com.masai.models.CreditCard;
-import com.masai.models.Customer;
-import com.masai.models.CustomerDTO;
-import com.masai.models.CustomerUpdateDTO;
-import com.masai.models.Order;
-import com.masai.models.SessionDTO;
-import com.masai.models.UserSession;
-import com.masai.repository.CustomerDao;
-import com.masai.repository.SessionDao;
+import com.echo.exception.CustomerException;
+import com.echo.exception.CustomerNotFoundException;
+import com.echo.exception.LoginException;
+import com.echo.models.Address;
+import com.echo.models.Cart;
+import com.echo.models.CreditCard;
+import com.echo.models.Customer;
+import com.echo.models.CustomerDTO;
+import com.echo.models.CustomerUpdateDTO;
+import com.echo.models.Order;
+import com.echo.models.SessionDTO;
+import com.echo.models.UserSession;
+import com.echo.repository.CustomerDao;
+import com.echo.repository.SessionDao;
 
 @Service
 public class CustomerServiceImpl implements CustomerService{

@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.controller;
 
 import java.util.List;
 
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.Seller;
-import com.masai.models.SellerDTO;
-import com.masai.models.SessionDTO;
-import com.masai.service.SellerService;
+import com.echo.models.Seller;
+import com.echo.models.SellerDTO;
+import com.echo.models.SessionDTO;
+import com.echo.service.SellerService;
 
 @RestController
 public class SellerController {

@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.controller;
 
 public class ProductNotFound extends RuntimeException{
 

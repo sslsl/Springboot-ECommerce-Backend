@@ -1,7 +1,7 @@
-package com.masai.service;
+package com.echo.service;
 
-import com.masai.models.CartDTO;
-import com.masai.models.CartItem;
+import com.echo.models.CartDTO;
+import com.echo.models.CartItem;
 
 public interface CartItemService {
 	

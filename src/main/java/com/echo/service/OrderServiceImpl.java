@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -8,17 +8,17 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masai.exception.LoginException;
-import com.masai.exception.OrderException;
-import com.masai.models.CartDTO;
-import com.masai.models.CartItem;
-import com.masai.models.Customer;
-import com.masai.models.Order;
-import com.masai.models.OrderDTO;
-import com.masai.models.OrderStatusValues;
-import com.masai.models.Product;
-import com.masai.models.ProductStatus;
-import com.masai.repository.OrderDao;
+import com.echo.exception.LoginException;
+import com.echo.exception.OrderException;
+import com.echo.models.CartDTO;
+import com.echo.models.CartItem;
+import com.echo.models.Customer;
+import com.echo.models.Order;
+import com.echo.models.OrderDTO;
+import com.echo.models.OrderStatusValues;
+import com.echo.models.Product;
+import com.echo.models.ProductStatus;
+import com.echo.repository.OrderDao;
 
 @Service
 public class OrderServiceImpl implements OrderService {

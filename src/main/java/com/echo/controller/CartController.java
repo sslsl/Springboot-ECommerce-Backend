@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.models;
 
 import java.util.List;
 
@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.Cart;
-import com.masai.models.CartDTO;
-import com.masai.models.CartItem;
-import com.masai.repository.CartDao;
-import com.masai.repository.CustomerDao;
-import com.masai.service.CartService;
+import com.echo.models.Cart;
+import com.echo.models.CartDTO;
+import com.echo.models.CartItem;
+import com.echo.repository.CartDao;
+import com.echo.repository.CustomerDao;
+import com.echo.service.CartService;
 
 @RestController
 public class CartController {

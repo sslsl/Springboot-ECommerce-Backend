@@ -1,10 +1,10 @@
-package com.masai.repository;
+package com.echo.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.masai.models.Seller;
+import com.echo.models.Seller;
 
 public interface SellerDao extends JpaRepository<Seller, Integer> {
 	

@@ -1,11 +1,11 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.util.List;
 
-import com.masai.models.CategoryEnum;
-import com.masai.models.Product;
-import com.masai.models.ProductDTO;
-import com.masai.models.ProductStatus;
+import com.echo.models.CategoryEnum;
+import com.echo.models.Product;
+import com.echo.models.ProductDTO;
+import com.echo.models.ProductStatus;
 
 public interface ProductService {
 

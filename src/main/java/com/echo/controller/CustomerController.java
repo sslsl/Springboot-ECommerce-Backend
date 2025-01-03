@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.models;
 
 import java.util.List;
 
@@ -15,14 +15,14 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.Address;
-import com.masai.models.CreditCard;
-import com.masai.models.Customer;
-import com.masai.models.CustomerDTO;
-import com.masai.models.CustomerUpdateDTO;
-import com.masai.models.Order;
-import com.masai.models.SessionDTO;
-import com.masai.service.CustomerService;
+import com.echo.models.Address;
+import com.echo.models.CreditCard;
+import com.echo.models.Customer;
+import com.echo.models.CustomerDTO;
+import com.echo.models.CustomerUpdateDTO;
+import com.echo.models.Order;
+import com.echo.models.SessionDTO;
+import com.echo.service.CustomerService;
 
 @RestController
 public class CustomerController {

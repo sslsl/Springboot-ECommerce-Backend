@@ -1,4 +1,4 @@
-package com.masai.models;
+package com.echo.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

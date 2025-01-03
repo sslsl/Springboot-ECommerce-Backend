@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.controller;
 
 import javax.validation.Valid;
 
@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.Customer;
-import com.masai.models.CustomerDTO;
-import com.masai.models.Seller;
-import com.masai.models.SellerDTO;
-import com.masai.models.SessionDTO;
-import com.masai.models.UserSession;
-import com.masai.service.CustomerService;
-import com.masai.service.LoginLogoutService;
-import com.masai.service.SellerService;
+import com.echo.models.Customer;
+import com.echo.models.CustomerDTO;
+import com.echo.models.Seller;
+import com.echo.models.SellerDTO;
+import com.echo.models.SessionDTO;
+import com.echo.models.UserSession;
+import com.echo.service.CustomerService;
+import com.echo.service.LoginLogoutService;
+import com.echo.service.SellerService;
 
 @RestController
 public class LoginController {

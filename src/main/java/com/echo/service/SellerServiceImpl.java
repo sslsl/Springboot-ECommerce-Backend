@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,14 +6,14 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masai.exception.LoginException;
-import com.masai.exception.SellerException;
-import com.masai.models.Seller;
-import com.masai.models.SellerDTO;
-import com.masai.models.SessionDTO;
-import com.masai.models.UserSession;
-import com.masai.repository.SellerDao;
-import com.masai.repository.SessionDao;
+import com.echo.exception.LoginException;
+import com.echo.exception.SellerException;
+import com.echo.models.Seller;
+import com.echo.models.SellerDTO;
+import com.echo.models.SessionDTO;
+import com.echo.models.UserSession;
+import com.echo.repository.SellerDao;
+import com.echo.repository.SessionDao;
 
 @Service
 public class SellerServiceImpl implements SellerService {

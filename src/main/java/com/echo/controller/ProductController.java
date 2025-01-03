@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.controller;
 
 import java.util.List;
 
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.CategoryEnum;
-import com.masai.models.Product;
-import com.masai.models.ProductDTO;
-import com.masai.models.ProductStatus;
-import com.masai.service.ProductService;
+import com.echo.models.CategoryEnum;
+import com.echo.models.Product;
+import com.echo.models.ProductDTO;
+import com.echo.models.ProductStatus;
+import com.echo.service.ProductService;
 
 import io.swagger.v3.oas.models.security.SecurityScheme.In;
 

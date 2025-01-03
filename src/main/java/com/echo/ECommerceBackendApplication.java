@@ -1,4 +1,4 @@
-package com.masai;
+package com.echo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;

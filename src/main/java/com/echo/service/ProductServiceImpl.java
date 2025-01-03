@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,15 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.masai.exception.CategoryNotFoundException;
-import com.masai.exception.ProductNotFoundException;
-import com.masai.models.CategoryEnum;
-import com.masai.models.Product;
-import com.masai.models.ProductDTO;
-import com.masai.models.ProductStatus;
-import com.masai.models.Seller;
-import com.masai.repository.ProductDao;
-import com.masai.repository.SellerDao;
+import com.echo.exception.CategoryNotFoundException;
+import com.echo.exception.ProductNotFoundException;
+import com.echo.models.CategoryEnum;
+import com.echo.models.Product;
+import com.echo.models.ProductDTO;
+import com.echo.models.ProductStatus;
+import com.echo.models.Seller;
+import com.echo.repository.ProductDao;
+import com.echo.repository.SellerDao;
 
 @Service
 public class ProductServiceImpl implements ProductService {

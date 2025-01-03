@@ -1,14 +1,14 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import com.masai.exception.CustomerNotFoundException;
-import com.masai.exception.LoginException;
-import com.masai.exception.OrderException;
-import com.masai.models.Customer;
-import com.masai.models.Order;
-import com.masai.models.OrderDTO;
+import com.echo.exception.CustomerNotFoundException;
+import com.echo.exception.LoginException;
+import com.echo.exception.OrderException;
+import com.echo.models.Customer;
+import com.echo.models.Order;
+import com.echo.models.OrderDTO;
 
 public interface OrderService {
 	public Order saveOrder(OrderDTO odto,String token) throws LoginException, OrderException;

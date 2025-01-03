@@ -1,4 +1,4 @@
-package com.masai.models;
+package com.echo.models;
 
 
 import javax.validation.constraints.NotNull;

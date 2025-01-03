@@ -1,4 +1,4 @@
-package com.masai.controller;
+package com.echo.controller;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.masai.models.Customer;
-import com.masai.models.Order;
-import com.masai.models.OrderDTO;
-import com.masai.repository.OrderDao;
-import com.masai.service.OrderService;
+import com.echo.models.Customer;
+import com.echo.models.Order;
+import com.echo.models.OrderDTO;
+import com.echo.repository.OrderDao;
+import com.echo.service.OrderService;
 
 @RestController
 public class OrderController {

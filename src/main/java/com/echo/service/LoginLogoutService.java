@@ -1,9 +1,9 @@
-package com.masai.service;
+package com.echo.service;
 
-import com.masai.models.CustomerDTO;
-import com.masai.models.SellerDTO;
-import com.masai.models.SessionDTO;
-import com.masai.models.UserSession;
+import com.echo.models.CustomerDTO;
+import com.echo.models.SellerDTO;
+import com.echo.models.SessionDTO;
+import com.echo.models.UserSession;
 
 
 public interface LoginLogoutService {

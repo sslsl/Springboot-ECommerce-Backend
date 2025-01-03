@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,18 +8,18 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masai.exception.CustomerNotFoundException;
-import com.masai.exception.LoginException;
-import com.masai.exception.SellerNotFoundException;
-import com.masai.models.Customer;
-import com.masai.models.CustomerDTO;
-import com.masai.models.Seller;
-import com.masai.models.SellerDTO;
-import com.masai.models.SessionDTO;
-import com.masai.models.UserSession;
-import com.masai.repository.CustomerDao;
-import com.masai.repository.SellerDao;
-import com.masai.repository.SessionDao;
+import com.echo.exception.CustomerNotFoundException;
+import com.echo.exception.LoginException;
+import com.echo.exception.SellerNotFoundException;
+import com.echo.models.Customer;
+import com.echo.models.CustomerDTO;
+import com.echo.models.Seller;
+import com.echo.models.SellerDTO;
+import com.echo.models.SessionDTO;
+import com.echo.models.UserSession;
+import com.echo.repository.CustomerDao;
+import com.echo.repository.SellerDao;
+import com.echo.repository.SessionDao;
 
 @Service
 public class LoginLogoutServiceImpl implements LoginLogoutService{

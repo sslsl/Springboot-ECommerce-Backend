@@ -1,11 +1,11 @@
-package com.masai.repository;
+package com.echo.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.masai.models.Customer;
+import com.echo.models.Customer;
 
 @Repository
 public interface CustomerDao extends JpaRepository<Customer, Integer>{

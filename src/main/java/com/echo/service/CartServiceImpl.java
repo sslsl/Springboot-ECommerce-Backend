@@ -1,4 +1,4 @@
-package com.masai.service;
+package com.echo.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,18 +7,18 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.masai.exception.CartItemNotFound;
-import com.masai.exception.CustomerNotFoundException;
-import com.masai.exception.LoginException;
-import com.masai.models.Cart;
-import com.masai.models.CartDTO;
-import com.masai.models.CartItem;
-import com.masai.models.Customer;
-import com.masai.models.UserSession;
-import com.masai.repository.CartDao;
-import com.masai.repository.CustomerDao;
-import com.masai.repository.ProductDao;
-import com.masai.repository.SessionDao;
+import com.echo.exception.CartItemNotFound;
+import com.echo.exception.CustomerNotFoundException;
+import com.echo.exception.LoginException;
+import com.echo.models.Cart;
+import com.echo.models.CartDTO;
+import com.echo.models.CartItem;
+import com.echo.models.Customer;
+import com.echo.models.UserSession;
+import com.echo.repository.CartDao;
+import com.echo.repository.CustomerDao;
+import com.echo.repository.ProductDao;
+import com.echo.repository.SessionDao;
 
 @Service
 public class CartServiceImpl implements CartService {

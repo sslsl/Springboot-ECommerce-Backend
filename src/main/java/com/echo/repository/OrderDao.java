@@ -1,4 +1,4 @@
-package com.masai.repository;
+package com.echo.repository;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,12 +8,12 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.masai.exception.CustomerNotFoundException;
-import com.masai.exception.OrderException;
-import com.masai.models.CartItem;
-import com.masai.models.Customer;
-import com.masai.models.Order;
-import com.masai.models.Product;
+import com.echo.exception.CustomerNotFoundException;
+import com.echo.exception.OrderException;
+import com.echo.models.CartItem;
+import com.echo.models.Customer;
+import com.echo.models.Order;
+import com.echo.models.Product;
 
 @Repository
 public interface OrderDao extends JpaRepository<Order, Integer> {

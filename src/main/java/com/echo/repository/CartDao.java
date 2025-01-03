@@ -1,12 +1,12 @@
-package com.masai.repository;
+package com.echo.repository;
 
 import java.util.Map;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.masai.models.Cart;
-import com.masai.models.Product;
+import com.echo.models.Cart;
+import com.echo.models.Product;
 
 @Repository
 public interface CartDao extends JpaRepository<Cart,Integer> {

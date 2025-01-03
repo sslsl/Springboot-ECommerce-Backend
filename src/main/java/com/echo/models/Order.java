@@ -1,4 +1,4 @@
-package com.masai.models;
+package com.echo.models;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
