@@ -1,4 +1,4 @@
-package com.echo.controller;
+package com.echo.exception;
 
 public class ProductNotFound extends RuntimeException{
 

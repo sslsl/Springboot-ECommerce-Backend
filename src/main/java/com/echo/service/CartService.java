@@ -2,7 +2,7 @@ package com.echo.service;
 
 import java.util.List;
 
-import com.echo.controller.ProductNotFound;
+import com.echo.exception.ProductNotFound;
 import com.echo.exception.CartItemNotFound;
 import com.echo.models.Cart;
 import com.echo.models.CartDTO;
